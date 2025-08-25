@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinCyle Pengelola Keuangan Pribadi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="detail.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">FinCycle Pengelola Keuangan Pribadi</div>
+        <ul class="nav-links">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">Tentang</a></li>
+          <li><a href="index.html#skills">Keahlian</a></li>
+          <li><a href="index.html#certifications">Sertifikat</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Kontak</a></li>
+        </ul>
+        <div class="mobile-menu">☰</div>
+      </div>
+    </nav>
+
+    <!-- Detail Proyek -->
+    <section class="project-detail">
+      <!-- Judul & Deskripsi di bawah -->
+      <h1>FinCyle Pengelola Keuangan Pribadi</h1>
+      <!-- Gallery Slider di atas -->
+      <div class="gallery-container">
+        <div class="gallery" id="gallery">
+          <img src="images/Halaman welcome.png" alt="Screenshot 1" />
+          <img src="images/halaman dashboard user.png" alt="Screenshot 2" />
+          <img src="images/halaman transaksi.png" alt="Screenshot 3" />
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+      </div>
+      <p>
+        Sistem Pengelolaan Keuangan Pribadi berbasis web ini dirancang untuk
+        membantu pengguna dalam mencatat dan mengelola keuangan pribadi mereka
+        dengan cara yang lebih terstruktur dan efisien. Dengan sistem ini,
+        pengguna dapat dengan mudah memantau pengeluaran, pemasukan, serta
+        investasi mereka. Aplikasi ini memungkinkan pengguna untuk memiliki
+        kontrol penuh atas keuangan mereka, yang penting untuk mencapai
+        kestabilan finansial dan tujuan keuangan jangka panjang.
+      </p>
+
+      <p>
+        Salah satu fitur utama dari sistem ini adalah kemampuan untuk mencatat
+        transaksi keuangan, baik itu pengeluaran maupun pemasukan. Pengguna
+        dapat mengategorikan setiap transaksi berdasarkan jenisnya (misalnya
+        makanan, transportasi, atau hiburan), yang memudahkan dalam melakukan
+        analisis keuangan. Sistem ini memungkinkan pengguna untuk melihat secara
+        detail setiap transaksi yang tercatat, baik harian, mingguan, maupun
+        bulanan.
+      </p>
+
+      <p>
+        Selain pencatatan transaksi, aplikasi ini juga menyediakan fitur
+        <strong>grafik perbandingan</strong> yang memungkinkan pengguna untuk
+        memvisualisasikan pengeluaran mereka dalam bentuk grafik. Grafik ini
+        akan menunjukkan perbandingan antara kategori pengeluaran, sehingga
+        pengguna dapat lebih mudah mengetahui area mana yang memerlukan
+        perhatian lebih dalam pengelolaan keuangan mereka. Misalnya, pengguna
+        dapat melihat bahwa mereka lebih banyak menghabiskan uang untuk hiburan
+        daripada untuk tabungan atau investasi, yang memberi gambaran jelas
+        tentang pola pengeluaran mereka.
+      </p>
+
+      <p>
+        Fitur lain yang sangat membantu adalah
+        <strong>perencanaan cicilan</strong> dan
+        <strong>target tabungan</strong>. Dengan fitur cicilan, pengguna dapat
+        melacak pembayaran cicilan mereka, baik itu untuk utang atau pembelian
+        barang dengan sistem cicilan. Sistem ini memungkinkan pengguna untuk
+        memasukkan tanggal jatuh tempo, jumlah cicilan, serta mengingatkan
+        mereka ketika pembayaran cicilan harus dilakukan, sehingga menghindari
+        denda atau keterlambatan.
+      </p>
+
+      <p>
+        Fitur <strong>target tabungan</strong> memungkinkan pengguna untuk
+        menetapkan tujuan tabungan, seperti membeli rumah, liburan, atau dana
+        darurat. Pengguna dapat menentukan jumlah yang ingin mereka capai dan
+        waktu yang dibutuhkan untuk mencapainya. Sistem akan menghitung berapa
+        banyak yang perlu ditabung setiap bulan agar pengguna dapat mencapai
+        tujuan tersebut tepat waktu. Selain itu, fitur ini juga memungkinkan
+        pengguna untuk melihat progres tabungan mereka secara real-time.
+      </p>
+
+      <p>
+        Aplikasi ini dibangun dengan menggunakan <strong>Laravel</strong>,
+        framework PHP yang terkenal karena keamanannya, kemudahan penggunaan,
+        dan kecepatan dalam pengembangan aplikasi web. Laravel menyediakan
+        berbagai fitur seperti routing, autentikasi pengguna, dan manajemen
+        database, yang memungkinkan aplikasi ini bekerja dengan lancar dan
+        efisien.
+      </p>
+
+      <p>
+        Untuk pengelolaan data, sistem ini menggunakan
+        <strong>MySQL</strong> sebagai basis data untuk menyimpan semua
+        informasi transaksi, pengeluaran, pemasukan, target tabungan, dan
+        cicilan. MySQL dipilih karena keandalannya dalam menangani data besar
+        dan kemampuannya untuk melakukan query dengan cepat, yang sangat penting
+        untuk aplikasi yang memerlukan pengelolaan data finansial yang kompleks.
+      </p>
+
+      <p>
+        Dengan menggunakan teknologi-teknologi ini, aplikasi sistem pengelolaan
+        keuangan pribadi berbasis web ini tidak hanya memberikan kemudahan dalam
+        pengelolaan keuangan, tetapi juga memastikan keamanan data pengguna
+        serta performa yang optimal. Pengguna dapat mengakses sistem ini melalui
+        perangkat apa pun, baik itu komputer desktop maupun perangkat mobile,
+        sehingga mereka dapat memantau keuangan mereka kapan saja dan di mana
+        saja.
+      </p>
+
+      <p>
+        Secara keseluruhan, aplikasi ini dirancang untuk membantu pengguna
+        menjadi lebih bijak dalam mengelola keuangan pribadi mereka. Dengan
+        fitur-fitur canggih yang mudah digunakan, pengguna dapat memiliki
+        kontrol yang lebih baik terhadap pengeluaran, tabungan, dan investasi
+        mereka, serta merencanakan masa depan keuangan mereka dengan lebih baik.
+      </p>
+
+      <a href="index.html#projects" class="back-link">← Kembali ke Proyek</a>
+    </section>
+    <footer class="footer">
+  <div class="social-links">
+    <a href="https://wa.me/6289699754980" title="Whatsapp" target="_blank">
+      <i class="fa fa-whatsapp"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/muhammad-fazli-adrianto/?trk=public-profile-join-page" title="LinkedIn" target="_blank">
+      <i class="fa fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Axse15" title="GitHub" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+    <a href="https://www.instagram.com/wmz_15?igsh=MXFmaHhyN2Q5MDhoNg==" title="Instagram" target="_blank">
+      <i class="fa fa-instagram"></i>
+    </a>
+  </div>
+  <p>&copy; 2025 Muhammad Fazli Adrianto.</p>
+</footer>
+
+    <script src="detail.js"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DonorYuk Mobile App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="detail2.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">DonorYuk Mobile App</div>
+        <ul class="nav-links">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">Tentang</a></li>
+          <li><a href="index.html#skills">Keahlian</a></li>
+          <li><a href="index.html#certifications">Sertifikat</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Kontak</a></li>
+        </ul>
+        <div class="mobile-menu">☰</div>
+      </div>
+    </nav>
+
+    <!-- Detail Proyek -->
+    <section class="project-detail">
+      <div class="project-info">
+        <h1>DonorYuk Mobile App</h1>
+
+        <!-- Galeri Gambar (Kanan) -->
+        <div class="gallery-container">
+          <div class="gallery" id="gallery">
+            <img src="images/home 1.png" alt="Screenshot 1" />
+            <img src="images/halaman stok darah.png" alt="Screenshot 2" />
+            <img src="images/halaman donasi 1.png" alt="Screenshot 3" />
+            <img src="images/halaman lokasi pmi 1.png" alt="Screenshot 4" />
+            <img
+              src="images/halaman pengajuan donor 1.png"
+              alt="Screenshot 5"
+            />
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">❮</button>
+          <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+
+        <!-- Deskripsi Proyek (Kiri) -->
+        <p>
+          Aplikasi mobile ini dirancang untuk memberikan kemudahan kepada
+          pengguna dalam menjalani proses pendonoran darah dengan cara yang
+          lebih praktis dan efisien. Melalui aplikasi ini, pengguna dapat dengan
+          mudah mendaftar sebagai pendonor darah, tanpa harus datang langsung ke
+          lokasi PMI (Palang Merah Indonesia) untuk mendaftar. Pengguna cukup
+          melakukan pendaftaran melalui aplikasi, mengisi data pribadi, dan
+          mengikuti proses verifikasi untuk memastikan bahwa mereka memenuhi
+          syarat sebagai pendonor.
+        </p>
+
+        <p>
+          Selain itu, aplikasi ini juga memudahkan pengguna untuk mencari lokasi
+          PMI terdekat dari tempat mereka berada. Dengan menggunakan fitur
+          pencarian berbasis lokasi, pengguna dapat menemukan rumah sakit atau
+          PMI yang paling dekat, serta mendapatkan informasi terkait jam
+          operasional dan fasilitas yang tersedia di masing-masing lokasi
+          tersebut. Hal ini sangat bermanfaat bagi mereka yang ingin mendonorkan
+          darah secara langsung dan memerlukan informasi yang cepat dan akurat
+          mengenai tempat terdekat yang dapat mereka tuju.
+        </p>
+
+        <p>
+          Salah satu fitur penting lainnya yang ditawarkan oleh aplikasi ini
+          adalah kemampuan untuk melihat stok darah yang tersedia di setiap PMI
+          di Jakarta. Pengguna dapat mengetahui ketersediaan darah sesuai dengan
+          golongan darah yang mereka butuhkan atau yang ingin mereka donorkan.
+          Dengan adanya informasi ini, pengguna bisa mengetahui apakah stok
+          darah cukup atau ada kebutuhan mendesak untuk jenis darah tertentu.
+          Fitur ini juga membantu meningkatkan kesadaran tentang pentingnya
+          mendonorkan darah dan memberikan transparansi tentang kebutuhan darah
+          di daerah mereka.
+        </p>
+
+        <p>
+          Aplikasi ini juga dilengkapi dengan fitur pencatatan riwayat donor
+          darah. Fitur ini memungkinkan setiap pendonor untuk melacak sejarah
+          pendonoran darah mereka, termasuk tanggal, jenis darah, dan lokasi
+          tempat mereka mendonorkan darah. Selain itu, pengguna juga bisa
+          melihat jadwal donor berikutnya berdasarkan interval yang disarankan
+          oleh PMI dan rumah sakit terkait. Riwayat donor ini tidak hanya
+          berfungsi sebagai catatan pribadi tetapi juga memberikan kemudahan
+          bagi pengguna untuk merencanakan pendonoran darah selanjutnya dengan
+          lebih terorganisir.
+        </p>
+
+        <p>
+          Selain fitur-fitur untuk pendonor, aplikasi ini juga terintegrasi
+          langsung dengan sistem manajemen rumah sakit dan PMI. Dengan integrasi
+          ini, aplikasi dapat memfasilitasi komunikasi yang lebih baik antara
+          pendonor dan rumah sakit atau PMI. Hal ini mempermudah proses
+          koordinasi, terutama dalam hal kebutuhan darah yang mendesak. Rumah
+          sakit dan PMI dapat lebih mudah mengelola stok darah dan
+          menginformasikan kepada pendonor tentang kebutuhan darah tertentu,
+          sehingga mereka bisa segera mendonorkan darah sesuai kebutuhan.
+        </p>
+
+        <p>
+          Penggunaan aplikasi ini memberikan manfaat yang sangat besar dalam hal
+          efisiensi dan kemudahan. Pasien atau pendonor tidak perlu lagi datang
+          langsung ke rumah sakit atau PMI untuk mengetahui ketersediaan stok
+          darah atau mendaftar sebagai pendonor. Semua informasi dapat diakses
+          dengan mudah melalui perangkat mobile mereka. Ini juga mengurangi
+          antrean di lokasi PMI dan rumah sakit, serta mempercepat proses
+          pendonoran darah secara keseluruhan.
+        </p>
+
+        <p>
+          Aplikasi ini dibangun menggunakan teknologi <strong>Flutter</strong>,
+          yang memungkinkan pengembangan aplikasi lintas platform untuk Android
+          dan iOS dengan satu basis kode. Flutter memberikan pengalaman pengguna
+          yang responsif dan performa yang tinggi, serta memungkinkan
+          pengembangan antarmuka pengguna (UI) yang intuitif dan menarik. Dengan
+          menggunakan Flutter, aplikasi ini dapat diakses oleh banyak pengguna
+          dari berbagai perangkat mobile tanpa kendala teknis.
+        </p>
+
+        <a href="index.html#projects" class="back-link">← Kembali ke Proyek</a>
+      </div>
+      
+    </section>
+    <footer class="footer">
+        <div class="social-links">
+          <a
+            href="https://wa.me/6289699754980"
+            title="Whatsapp"
+            target="_blank"
+          >
+            <i class="fa fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammad-fazli-adrianto/?trk=public-profile-join-page"
+            title="LinkedIn"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Axse15" title="GitHub" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/wmz_15?igsh=MXFmaHhyN2Q5MDhoNg=="
+            title="Instagram"
+            target="_blank"
+          >
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+        <p>&copy; 2025 Muhammad Fazli Adrianto.</p>
+      </footer>
+    <script src="detail.js"></script>
+  </body>
+</html>
