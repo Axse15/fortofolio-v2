@@ -965,6 +965,12 @@ body {
   .scroll-to-top {
     display: none;
   }
+  .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.3rem;
+  margin-top: 3rem;
+}
 }
 /* Scroll to Top Button */
 .scroll-to-top {
