@@ -191,3 +191,17 @@ if ("IntersectionObserver" in window) {
   });
 }
 
+// Tombol Scroll ke Atas
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+// Menampilkan tombol scroll ke atas saat pengunjung menggulir halaman
+window.addEventListener("scroll", () => {
+  const scrollButton = document.getElementById("scrollToTop");
+  if (window.scrollY > 100) {
+    scrollButton.style.display = "block"; // Menampilkan tombol scroll ke atas
+  } else {
+    scrollButton.style.display = "none"; // Menyembunyikan tombol saat di atas
+  }
+});
